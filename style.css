@@ -679,6 +679,9 @@ a {
   gap: 50px;
 
   align-items: center;
+
+  background: #F7F3ED; 
+  
 }
 
 .about-image {

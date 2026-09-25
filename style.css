@@ -109,67 +109,29 @@ a {
 }
 
 .hero {
-  padding: 45px 0 38px;
+  padding: 5px 0 5px;
 }
 
 .hero-inner {
-  width: min(1120px, calc(100% - 60px));
-  height: 300px;
+  width: min(1120px, calc(100% - 40px));
 
   margin: auto;
 
   border-radius: 160px;
-  background: var(--cream);
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  position: relative;
   overflow: hidden;
+
+  line-height: 0;
 }
 
-.hero-logo-placeholder {
-  position: relative;
-  width: 680px;
-  text-align: center;
+.hero-inner img {
+  width: 100%;
+  height: auto;
+
+  display: block;
+
+  object-fit: contain;
 }
-
-.hero-logo-placeholder h1 {
-  margin: 5px 0 2px;
-
-  color: var(--pink);
-
-  font-family: Georgia, serif;
-  font-size: 70px;
-  font-style: italic;
-  letter-spacing: -4px;
-}
-
-.hero-logo-placeholder p {
-  margin: 0;
-
-  font-family: Georgia, serif;
-  font-size: 12px;
-}
-
-.hero-logo-placeholder .small-text {
-  position: absolute;
-  left: 0;
-  top: 5px;
-
-  font-size: 9px;
-  line-height: 1.2;
-  text-align: left;
-}
-
-.hero-logo-placeholder .small-text.right {
-  left: auto;
-  right: 0;
-  top: auto;
-  bottom: 3px;
-}
-
 
 /* =========================================================
    TICKER

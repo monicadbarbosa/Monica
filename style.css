@@ -783,11 +783,11 @@ a {
 ========================================================= */
 
 .about-section {
-  width: min(1100px, calc(100% - 70px));
+  width: 100%;
 
-  margin: auto;
+  margin: 0;
 
-  padding: 120px 0;
+  padding: 120px max(35px, calc((100% - 1100px) / 2));
 
   display: grid;
 
@@ -797,8 +797,7 @@ a {
 
   align-items: center;
 
-  background: #F7F3ED; 
-  
+  background: #F7F3ED;
 }
 
 .about-image {
